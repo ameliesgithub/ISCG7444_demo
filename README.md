@@ -14,7 +14,7 @@ python app.py
 ## Testing
 
 ```powershell
-python -m pytest test_app.py
+pytest
 ```
 
 ## Docker
