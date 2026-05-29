@@ -5,7 +5,7 @@ app = flask.Flask(__name__)
 
 @app.route('/')
 def home():
-    return 'API works!'
+    return jsonify(message="API works!")
 
 @app.route("/health")
 def health():
